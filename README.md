@@ -13,7 +13,7 @@ Release Notes: IBM Aspera Connect 4.2.4
 
 ```
 cd $HOME
-wget https://github.com/nig-sc/docker_ascp4/blob/main/ascp4_ubuntu22.sif
+wget  https://raw.githubusercontent.com/nig-sc/docker_ascp4/main/ascp4_ubuntu22.sif
 ```
 
 Aspera Connectのインストーラはユーザ権限で実行する必要があり、$HOME/.asperaの下にインストールされるので、
