@@ -15,7 +15,7 @@ cd $HOME
 wget https://raw.githubusercontent.com/nig-sc/docker_ascp4/main/ascp4_ubuntu22.sif
 ```
 
-Aspera Connect's installer needs to be run with user privileges and is installed under $HOME/.aspera, so it seems that installation is necessary the first time. The following command will install the ascp command:
+Aspera Connect's installer needs to be run with user privileges and is installed under $HOME/.aspera, so installation is necessary the first time. The following command will install the ascp command:
 
 ```
 $ apptainer exec ascp4_ubuntu22.sif bash /usr/local/src/ibm-aspera-connect_4.2.4.265_linux.sh
@@ -67,7 +67,7 @@ wget  https://raw.githubusercontent.com/nig-sc/docker_ascp4/main/ascp4_ubuntu22.
 ```
 
 Aspera Connectのインストーラはユーザ権限で実行する必要があり、$HOME/.asperaの下にインストールされるので、
-最初の一回はインストール作業が必要なようです。以下のコマンドによりascpコマンドがインストールされます。
+最初の一回はインストール作業が必要です。以下のコマンドによりascpコマンドがインストールされます。
 
 ```
 $ apptainer exec ascp4_ubuntu22.sif bash /usr/local/src/ibm-aspera-connect_4.2.4.265_linux.sh
